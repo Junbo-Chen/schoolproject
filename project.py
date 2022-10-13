@@ -1,10 +1,11 @@
 import random
+from dotenv import load_dotenv
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from PIL import Image
 from numpy import dtype
 
- 
+
 x = "y"
 score = 0
 
@@ -126,6 +127,6 @@ while x == "y":
         if score > 10:
             img = Image.open('img/duim.jpg')
             img.show()
-        elif score < 0:
+        if(score < 0):
             img = Image.open('img/L.jpg')
             img.show()
