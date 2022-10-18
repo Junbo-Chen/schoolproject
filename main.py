@@ -80,7 +80,7 @@ async def on_message(m):
             if dt == 11:
                 punt2 = 5
                 await m.channel.send("machine rolled a 5")
-                await m.channel.send(file=discord.File('C:\IdeaProjects\project\schoolproject\img\dt5.gif'))
+                await m.channel.send(file=discord.File('C:\\IdeaProjects\\project\\schoolproject\\img\\dt5.gif'))
             if dt == 12:
                 punt2 = 6
                 await m.channel.send("machine rolled a 6")
@@ -123,5 +123,5 @@ async def on_message(m):
     user_message = str(m.content)
     print(f"{username} said: {user_message}")
 
-    
-client.run('MTAyOTc1NzgxMjQxMjI2NDU1OA.GjuRW_.Ejo4kFKKhOl0cDZ-NyOCyMk74Y2mc1EPFC5gsc')
+
+client.run('MTAyOTc1NzgxMjQxMjI2NDU1OA.GJeiyn.5NKG-Cd0edILAhkkXHhnDdD27c06K1eV1akMSc')
